@@ -1,0 +1,15 @@
+﻿<Window x:Class="Visual_CSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Visual_CSharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="textBox_main" HorizontalAlignment="Left" Height="93" Margin="45,22,0,0" TextWrapping="Wrap" Text="Kan de kat de muis vinden zonder de hond wakker te maken" VerticalAlignment="Top" Width="354"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="93" Margin="45,185,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="354"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="30" Margin="159,135,0,0" VerticalAlignment="Top" Width="117" Click="button_Click"/>
+
+    </Grid>
+</Window>
